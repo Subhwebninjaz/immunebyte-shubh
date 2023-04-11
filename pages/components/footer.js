@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
         <div className="main-foot">
           <div className="row g-4 g-lg-0">
-            <div className="col-lg-2"><div className="img-div foot-logo"><img src="images/immunebytes-logo.svg" alt="" /></div></div>
+            <div className="col-lg-2"><a href="/" className="img-div foot-logo"><img src="images/immunebytes-logo.svg" /></a></div>
             <div className="col-lg-3">
               <h5 className="foot-title fs-title">join our community</h5>
               <div className="foot-social">
@@ -42,11 +42,11 @@ export default function Footer() {
               <div className="serv-div">
                 <h5 className="foot-title">services</h5>
                 <ul>
-                  <li><Link href="#">smart contract audit</Link></li>
-                  <li><Link href="#">blockchain security services</Link></li>
-                  <li><Link href="#">penetration testing</Link></li>
-                  <li><Link href="#">web3 security consulting</Link></li>
-                  <li><Link href="#">digital asset security</Link></li>
+                  <li><Link href="/">smart contract audit</Link></li>
+                  <li><Link href="/bchain-security">blockchain security services</Link></li>
+                  <li><Link href="/penetration">penetration testing</Link></li>
+                  <li><Link href="/web3-security">web3 security consulting</Link></li>
+                  <li><Link href="/digital-security">digital asset security</Link></li>
                 </ul>
               </div>
             </div>
@@ -54,22 +54,22 @@ export default function Footer() {
               <div className="comp-div">
                 <h5 className="foot-title">company</h5>
                 <ul>
-                  <li><Link href="#">about us</Link></li>
-                  <li><Link href="#">contact us</Link></li>
-                  <li><Link href="#">testimonials</Link></li>
-                  <li><Link href="#">help</Link></li>
-                  <li><Link href="#">privacy policy</Link></li>
-                  <li><Link href="#">disclaimer</Link></li>
-                  <li><Link href="#">portfolio</Link></li>
+                  <li><Link href="/about-us">about us</Link></li>
+                  <li><Link href="/contact-us">contact us</Link></li>
+                  <li><Link href="/testimonials">testimonials</Link></li>
+                  <li><Link href="/help">help</Link></li>
+                  <li><Link href="/privacy-policy">privacy policy</Link></li>
+                  <li><Link href="/disclaimer">disclaimer</Link></li>
+                  <li><Link href="/portfolio">portfolio</Link></li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-2">
               <h5 className="foot-title">resources</h5>
               <ul>
-                <li><Link href="#">pricing calculator</Link></li>
+                <li><Link href="/sca-cost">pricing calculator</Link></li>
                 <li><Link href="#">blog</Link></li>
-                <li><Link href="#">tools</Link></li>
+                <li><Link href="/tools">tools</Link></li>
                 <li><Link href="#">audit reports</Link></li>
               </ul>
             </div>
