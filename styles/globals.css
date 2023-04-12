@@ -122,7 +122,7 @@ h1,h2,h3,h4{
 .wn-body .navbar .nav-item:hover .nav-link{
   color: var(--cyan-green);
 }
-.mega-dropdown {
+.wn-body .mega-dropdown {
   width: 760px;
   padding: 10px;
   border-radius: 20px;
