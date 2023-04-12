@@ -1,5 +1,6 @@
 import React from 'react'
 import { gql, useQuery } from '@apollo/client';
+import Image from 'next/image';
 
 const all_portfolio = gql`
 query{
@@ -48,7 +49,11 @@ export default function Gql() {
             {data && data.allPortfolio.map((item) => (
             <tr>
               <th scope="row">{item.id}</th>
-              <td><img src="{item.logo}" />{item.name}</td>
+              <td>
+                {/* <img src={item.logo} /> */}
+                <Image src={item.logo} alt={item.name} width={50} height={50} />
+                {item.name}
+                </td>
               <td>{item.blockchain}</td>
               <td>{item.onboardDate}</td>
               <td>589.6M</td>
