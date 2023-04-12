@@ -4,7 +4,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body>
+        <body className='wn-body'>
           <Main />
           <NextScript />
         </body>
