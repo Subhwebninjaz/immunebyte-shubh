@@ -29,7 +29,7 @@ function MegaMenu() {
       <div className="row">
         <div className="col-5">
           <ul className="list-unstyled mm-left-ul">
-            <li><Link href="#">
+            <li><Link href="/">
               <div className="testi-author mm-left">
                 <div className="img-div ta-img"></div>
                 <div className="ta-text">
@@ -38,7 +38,7 @@ function MegaMenu() {
                 </div>
               </div>
             </Link></li>
-            <li><Link href="#">
+            <li><Link href="bchain-security">
             <div className="testi-author mm-left">
               <div className="img-div ta-img"></div>
               <div className="ta-text">
@@ -47,7 +47,7 @@ function MegaMenu() {
               </div>
             </div>
             </Link></li>
-            <li><Link href="#">
+            <li><Link href="penetration">
             <div className="testi-author mm-left">
               <div className="img-div ta-img"></div>
               <div className="ta-text">
@@ -56,7 +56,7 @@ function MegaMenu() {
               </div>
             </div>
             </Link></li>
-            <li><Link href="#">
+            <li><Link href="web3-security">
             <div className="testi-author mm-left">
               <div className="img-div ta-img"></div>
               <div className="ta-text">
@@ -65,7 +65,7 @@ function MegaMenu() {
               </div>
             </div>
             </Link></li>
-            <li><Link href="#">
+            <li><Link href="digital-security">
             <div className="testi-author mm-left">
               <div className="img-div ta-img"></div>
               <div className="ta-text">
