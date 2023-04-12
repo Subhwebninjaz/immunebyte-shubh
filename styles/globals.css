@@ -503,14 +503,14 @@ h1,h2,h3,h4{
 }
 
 /* faq */
-.faq .accordion-item {
+.wn-body .faq .accordion-item {
   border: none;
   border-radius: 20px !important;
   background-color: var(--white-smoke);
   box-shadow: 0px 2px 6px 0px #73737380 inset;
   margin-bottom: 10px;
 }
-.faq .accordion-button {
+.wn-body .faq .accordion-button {
   background-color: transparent;
   color: var(--dark-cyan);
   font-weight: bold;
@@ -518,29 +518,29 @@ h1,h2,h3,h4{
   position: relative;
   padding: 1em 3em 1em 1em;
 }
-.faq .accordion-button svg {
+.wn-body .faq .accordion-button svg {
   position: absolute;
   right: 30px;
   font-size: 30px;
 }
-.faq .accordion-button:focus {
+.wn-body .faq .accordion-button:focus {
   box-shadow: unset;
 }
-.faq .accordion-button:not(.collapsed){
+.wn-body .faq .accordion-button:not(.collapsed){
   box-shadow: unset;
 }
 
-.faq .accordion-button::after {
+.wn-body .faq .accordion-button::after {
   display: none;
 }
-.faq .accordion-body {
+.wn-body .faq .accordion-body {
   padding-top: unset;
 }
-.faq .accordion-button .faq-mns {
+.wn-body .faq .accordion-button .faq-mns {
   transition: rotate .3s;
   rotate: 0deg;
 }
-.faq .accordion-button.collapsed .faq-mns {
+.wn-body .faq .accordion-button.collapsed .faq-mns {
   rotate: 270deg;
 }
 
@@ -988,16 +988,16 @@ section {
 }
 
 /* faq */
-.faq .accordion-button {
+.wn-body .faq .accordion-button {
   font-size: 16px;
 }
-.faq .accordion-item {
+.wn-body .faq .accordion-item {
   margin-bottom: 10px;
 }
-.faq .accordion-body {
+.wn-body .faq .accordion-body {
   font-size: 14px;
 }
-.faq .accordion-button svg {
+.wn-body .faq .accordion-button svg {
   right: 20px;
   font-size: unset;
 }
