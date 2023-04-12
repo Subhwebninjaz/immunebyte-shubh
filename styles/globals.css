@@ -939,6 +939,9 @@ h1,h2,h3,h4{
 } /* mwidth-end */
 
 @media (max-width:767px){
+.wn-body .navbar-toggler {
+  padding: unset;
+}
 div[class^='col-'] > .col-sub {
   height: unset;
 }
