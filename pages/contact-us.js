@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import ContactForm from './components/contact-form'
+import AddressMap from './components/address-map'
 
 export default function ContactUs() {
   return (
@@ -59,6 +60,7 @@ export default function ContactUs() {
           </div>
         </div>
       </section>
+      <AddressMap />
     </main>
     </>
   )

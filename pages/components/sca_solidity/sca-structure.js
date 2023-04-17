@@ -8,7 +8,7 @@ export default function ScaSolidityStructure() {
           <div className="row g-4">
             <div className='col-lg-3'>
                <div className='struct-btn'>
-                  <button class="btn btn-fill" type="button">Audit Structure</button>
+                  <button className="btn btn-fill" type="button">Audit Structure</button>
                </div>
             </div>
             <div className='col-lg-9'>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react' 
+import AddressMap from './components/address-map'
 
 
 export default function PrivacyPolicicy() {
@@ -11,9 +12,9 @@ export default function PrivacyPolicicy() {
         <div className="row flex-column-reverse flex-lg-row g-4">
           <div className='col-lg-8'>
           <h2 className="sec-title main-title">Privacy Policy</h2>
-          <p className="sec-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.</p>
-          <p className="sec-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuereLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuereLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere.</p>
-          <p className="sec-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales.</p>
+          <p className="sec-p">This section of the website contains important details regarding the collection , processing , storage and use of all personal information sourced from the ImmuneBytes website which is available at-https;//www.immuneby&ssom/- and any other services , products , blogs , tools , content , forums , comments , applications made available by ImmuneBytes and its parent company Hyplex technology Pvt Ltd.</p>
+          <p className="sec-p">This will further clarify and help you understand how the data that is being collected from you as a user or visitor of this website(s) or service(s) is being used and your choices as well as control over it. By understanding the Privacy Policy document and by using the ImmuneBytes website and its services , you consent to the collection of data, its use, its disclosure and the processing of your information. This Privacy policy encompasses only the ImmuneBytes website and its associated products and services, and does not cover external third party websites , products and services including and not limited to ad redirects and communication services that you may be able to access here.</p>
+          <p className="sec-p">It is general advice to understand the privacy policy of those external third party websites , products and services before you proceed to use their resources and also be vigilant while sharing sensitive information like date of birth , bank details, credit card information , wallet address etc and also to read the privacy policy document very carefully.</p>
           </div>
           <div className='col-lg-4'>
             <div className="os-simple sticky-top" style={{top:'30px'}}>
@@ -28,14 +29,14 @@ export default function PrivacyPolicicy() {
             </div>
           </div>
         </div>
-        <p className="sec-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet.</p>
+        <p className="sec-p">The use of your information is subjected to this privacy policy , which could be updated from time to time without any due notice to your or any of the stakeholders. All queries and complaints should be directed towards -team@lmmunebytesßom. All applicable laws and rules fall under the jurisdiction of New Delhi , The Republic of India , which includes and is not limited to penalties, punishments, binding agreements, court orders and summons etc. Personal information may include name, date of birth, bank information, credit card details, wallet address, email address, mobile number, fax, telephone number, passport details, government issued identification, insurance details, social security number, residence address , tax identification number, IP address , mac address , device information, session time and other available electronic information etc.</p>
       </div>
     </section>
 
     <section>
       <div className="container">
           <h3 className="sec-title" id="title1">Data Collecting Entity</h3 >
-          <p className="sec-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.</p>
+          <p className="sec-p">ImmuneBytes and its team is responsible for handling and processing of your personal data , which includes and is not limited to securing your information to the best of our abilities and sharing it with third party agencies for example, advertising firms to deliver relevant ad experiences. However, it shall be noted that any loss of personal information which may include sensitive information is not the responsibility of ImmuneBytes and its parent company Hyplex Technology Pvt Ltd in any manner. No claims or damages shall be made against ImmuneBytes or its parent company Hyplex Technology Pvt Ltd in this regard. We control the personal information that you provide and also hold the right to make decisions regarding the use of that data, without your or any third party mediation. However, it shall be noted that this use of information by ImmuneBytes is also binding by applicable laws under the jurisdiction of New Delhi, The Republic of India.</p>
       </div>
     </section>
 
@@ -53,7 +54,7 @@ export default function PrivacyPolicicy() {
             <li>Product consumption</li>
             <li>Downloads</li>
             <li>URLs</li>
-            <li>Network bandwidth , type , geolocation , IP adresses , MAC adresses</li>
+            <li>Network bandwidth , type , geolocation , IP adresses , MAC adresses etc.</li>
             <li>Name</li>
             <li>Address</li>
             <li>Email address</li>
@@ -62,9 +63,9 @@ export default function PrivacyPolicicy() {
             <li>Browser data</li>
             <li>Phone/mobile number</li>
             <li>Social media information</li>
-            <li> Blog/forum information</li>
-            <li> financial/credit card informationElectronic documents , photos , videos ,</li>
-            <li>gifs , audio and more...</li>
+            <li>Blog/forum information</li>
+            <li>financial/credit card information</li>
+            <li>Electronic documents, photos, videos, gifs, audio and more...</li>
           </ol>
       </div>
     </section>
@@ -72,37 +73,17 @@ export default function PrivacyPolicicy() {
     <section>
       <div className="container">
           <h3 className="sec-title" id="title3">How long do we hold your persoal information?</h3 >
-          <p className="sec-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.</p>
+          <p className="sec-p">ImmuneBytes and its team is responsible for handling and processing of your personal data , which includes and is not limited to securing your information to the best of our abilities and sharing it with third party agencies for example, advertising firms to deliver relevant ad experiences. However, it shall be noted that any loss of personal information which may include sensitive information is not the responsibility of ImmuneBytes and its parent company Hyplex Technology Pvt Ltd in any manner. No claims or damages shall be made against ImmuneBytes or its parent company Hyplex Technology Pvt Ltd in this regard. We control the personal information that you provide and also hold the right to make decisions regarding the use of that data, without your or any third party mediation. However, it shall be noted that this use of information by ImmuneBytes is also binding by applicable laws under the jurisdiction of New Delhi, The Republic of India.</p>
       </div>
     </section>
 
     <section>
       <div className="container">
           <h3 className="sec-title" id="title4">Cookie information</h3 >
-          <p className="sec-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus, ut lobortis nulla posuere. Duis eu erat tincidunt.</p>
+          <p className="sec-p">ImmuneBytes and its team is responsible for handling and processing of your personal data , which includes and is not limited to securing your information to the best of our abilities and sharing it with third party agencies for example, advertising firms to deliver relevant ad experiences. However, it shall be noted that any loss of personal information which may include sensitive information is not the responsibility of ImmuneBytes and its parent company Hyplex Technology Pvt Ltd in any manner. No claims or damages shall be made against ImmuneBytes or its parent company Hyplex Technology Pvt Ltd in this regard. We control the personal information that you provide and also hold the right to make decisions regarding the use of that data, without your or any third party mediation. However, it shall be noted that this use of information by ImmuneBytes is also binding by applicable laws under the jurisdiction of New Delhi, The Republic of India.</p>
       </div>
     </section>
-
-    <section>
-      <div className="container pp-map">
-          <h3 className="sec-title" id="title5">Concerns,Queries and Contact</h3 >
-          <p className="sec-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas lacus sodales massa rhoncus. </p>
-           <div className="row">
-            <div className="col-lg-6 ">
-              <div className="add-text">
-                <p className='p-bold'>Office Timings: 10:00 AM- 6:30 PM</p>
-                <p>Address:</p>
-                <p>ImmunBytes, Spring House</p>
-                <p>B1/639 A, 4th Floor, Janakpuri, New Delhi-110058, India</p>
-              </div>
-        
-            </div>
-            <div className="col-lg-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.919509422082!2d77.08283066553804!3d28.632174382418025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05492ef45429%3A0x318b6b7298e385c6!2sSpringhouse%20Coworking%20SHDL002!5e0!3m2!1sen!2sin!4v1681204091108!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-           </div>
-      </div>
-    </section>
+    <AddressMap />
     </main>
     </>
   )

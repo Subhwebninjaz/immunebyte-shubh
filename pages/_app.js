@@ -9,9 +9,7 @@ import '../styles/globals.css';
 export default function App({ Component, pageProps }) {
   return (
     <>
-    
     <ApolloProvider client={client} >
-      
     <Header />
      <Component {...pageProps} />
     <Footer />

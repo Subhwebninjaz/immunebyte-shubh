@@ -11,27 +11,27 @@ export default function Faq() {
           <Accordion defaultActiveKey="0" flush>
 
             <Accordion.Item eventKey="0">
-              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<FaMinus className='faq-mns' /><FaMinus /></Accordion.Header>
+              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<span className="acc-icn"><FaMinus className='faq-mns' /><FaMinus /></span></Accordion.Header>
               <Accordion.Body>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur sem nec tortor interdum pellentesque. Integer sit amet sem et lacus dapibus. Curabitur aliquam pellentesque nulla vitae ullamcorper. Ut iaculis mollis pulvinar. Vestibulum malesuada laoreet urna, nec auctor odio pharetra quis.</Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="1">
-              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<FaMinus className='faq-mns' /><FaMinus /></Accordion.Header>
+              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<span className="acc-icn"><FaMinus className='faq-mns' /><FaMinus /></span></Accordion.Header>
               <Accordion.Body>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur sem nec tortor interdum pellentesque. Integer sit amet sem et lacus dapibus. Curabitur aliquam pellentesque nulla vitae ullamcorper. Ut iaculis mollis pulvinar. Vestibulum malesuada laoreet urna, nec auctor odio pharetra quis.</Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="2">
-              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<FaMinus className='faq-mns' /><FaMinus /></Accordion.Header>
+              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<span className="acc-icn"><FaMinus className='faq-mns' /><FaMinus /></span></Accordion.Header>
               <Accordion.Body>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur sem nec tortor interdum pellentesque. Integer sit amet sem et lacus dapibus. Curabitur aliquam pellentesque nulla vitae ullamcorper. Ut iaculis mollis pulvinar. Vestibulum malesuada laoreet urna, nec auctor odio pharetra quis.</Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="3">
-              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<FaMinus className='faq-mns' /><FaMinus /></Accordion.Header>
+              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<span className="acc-icn"><FaMinus className='faq-mns' /><FaMinus /></span></Accordion.Header>
               <Accordion.Body>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur sem nec tortor interdum pellentesque. Integer sit amet sem et lacus dapibus. Curabitur aliquam pellentesque nulla vitae ullamcorper. Ut iaculis mollis pulvinar. Vestibulum malesuada laoreet urna, nec auctor odio pharetra quis.</Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="4">
-              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<FaMinus className='faq-mns' /><FaMinus /></Accordion.Header>
+              <Accordion.Header>Lorem Ipsum Dolor Sit Amet Consectetur?<span className="acc-icn"><FaMinus className='faq-mns' /><FaMinus /></span></Accordion.Header>
               <Accordion.Body>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur sem nec tortor interdum pellentesque. Integer sit amet sem et lacus dapibus. Curabitur aliquam pellentesque nulla vitae ullamcorper. Ut iaculis mollis pulvinar. Vestibulum malesuada laoreet urna, nec auctor odio pharetra quis.</Accordion.Body>
             </Accordion.Item>
 
