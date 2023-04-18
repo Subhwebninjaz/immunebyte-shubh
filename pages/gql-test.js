@@ -29,16 +29,17 @@ query($symbol_name: String!){
 }
 `;
 
-function ViewAuditReport(varArr) {
+function ViewAuditReport(props) {
+
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
     <>
       <Button variant="" onClick={handleShow}><FaEye/></Button>
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton> <Modal.Title>Modal heading</Modal.Title> </Modal.Header>
-        <Modal.Body>hello</Modal.Body>
+      <Modal show={show} onHide={handleClose} className='audit-modal'>
+        <Modal.Header closeButton> <Modal.Title>View Audit Report</Modal.Title> </Modal.Header>
+        <Modal.Body>{props.varArr.map((report) => ( <a href={report.link} key={report.id}>{report.link} {report.id}</a> ))}</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}> Close </Button>
         </Modal.Footer>
@@ -54,7 +55,6 @@ export default function Gql() {
     <>
     {loading && <p>Loading...</p>}
     {error && <p> {error.message} </p>}
-    {/* <p>{data?.allPortfolio[0].name}</p> */}
     <main className="main-services">
       <div className="container">
         <div className="os-simple port-table">
@@ -79,7 +79,6 @@ export default function Gql() {
               <td>{portfolio.onboardDate}</td>
               {<td><CryptoData symbol_name={portfolio.name} /></td>}
               <td><div className="img-div line-graph"><img src="images/graph-green.jpg" /></div></td>
-              {/* <td>{portfolio.reports.map((report) => ( <a href={report.link} key={report.id}><FaEye />{report.link} {report.id}</a> ))}</td> */}
               <td className='view-report'><ViewAuditReport varArr = {portfolio.reports} /></td>
             </tr>
           ))}

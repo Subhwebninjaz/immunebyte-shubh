@@ -1226,6 +1226,27 @@ h1,h2,h3,h4{
   font-size: 24px;
   margin-left: 50px;
 }
+.audit-modal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.port-table tr > :first-child {
+  border-radius: 20px 0 0 20px;
+  padding-left: 30px;
+}
+.port-table tr > :last-child {
+  border-radius: 0 20px 20px 0;
+}
+.port-table .table > :not(caption) > * > *{
+  border-bottom: none;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: var(--white);
+}
+.table-striped > tbody > tr:nth-of-type(odd){
+  background-color: #fff;
+}
 
 /* ================== Media Query ================== */  
 @media (min-width:1200px){
