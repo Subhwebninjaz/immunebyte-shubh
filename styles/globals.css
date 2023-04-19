@@ -1191,8 +1191,7 @@ h1,h2,h3,h4{
 }
 
 /* gql-test */
-.port-table {
-  /* margin-top: 50px; */
+.Api-Tabs .port-table {
   border-top-left-radius: unset;
   position: relative;
 }
