@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
-import Header from './components/header';
+import Header from './components/header'
 import Footer from './components/footer'
 import {ApolloProvider} from '@apollo/client/react'
 import {client} from './api/apollo'

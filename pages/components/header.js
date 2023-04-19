@@ -5,6 +5,7 @@ import { Modal, Button } from "react-bootstrap";
 import ContactForm from './contact-form';
 import MegaMenu from './megamenu'
 import Accordion from 'react-bootstrap/Accordion';
+import { useRouter } from 'next/router';
 
 const AuditModal = () => {
   const [show, setShow] = useState(false);
@@ -60,6 +61,26 @@ function BsNavDropdown() {
 
 
 export default function Header() {
+  const router = useRouter();
+  const [activeKey, setActiveKey] = useState('');
+  const [activeKeytwo, setActiveKeytwo] = useState('');
+  const [activeKeythree, setActiveKeythree] = useState('');
+
+  // Listen for page navigation events and close the Accordion
+  useEffect(() => {
+    const handleRouteChange = () => { 
+      setActiveKey('');
+      setActiveKeytwo('');
+      setActiveKeythree('');
+    };
+    
+    router.events.on('routeChangeStart', handleRouteChange);
+
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChange);
+    };
+  }, [router]);
+  
   return (
     <>
     <header className="container">
@@ -98,17 +119,17 @@ export default function Header() {
               <div className="mobile-menu-close"> <FaTimes /> </div>
             </div>
             <ul className="navbar-nav">
-                <li className="nav-item mm-link"> <Link className="nav-link" href="/"> Home </Link> </li>
+                <li className="nav-item mm-link"> <Link className="nav-link" href="/" > Home </Link> </li>
                 <li className="nav-item ">
-                  <Accordion flush className="nav-link">
+                  <Accordion flush className="nav-link"  activeKey={activeKey} onSelect={(key) => setActiveKey(key)} > 
                       <Accordion.Item eventKey="1">
-                      <Link className='mm-link' href="/services">Services</Link>
-                      <Accordion.Header><div className='acc-icn'><FaMinus className='faq-mns'/><FaMinus /></div></Accordion.Header>
+                      <Link className='mm-link' href="/services"  >Services</Link>
+                      <Accordion.Header><div className='acc-icn' ><FaMinus className='faq-mns'/><FaMinus /></div></Accordion.Header>
                       <Accordion.Body>
                         <ul>
                           <li className="nav-item">
-                            <Accordion flush className="nav-link">
-                              <Accordion.Item eventKey="1">
+                            <Accordion flush className="nav-link" activeKey={activeKeytwo} onSelect={(key) => setActiveKeytwo(key)}>
+                              <Accordion.Item eventKey="2">
                               <Link className='mm-link' href="/">Smart Contract Audit</Link>
                                 <Accordion.Header><div className='acc-icn'><FaMinus className='faq-mns'/><FaMinus /></div></Accordion.Header>
                                 <Accordion.Body>
@@ -155,20 +176,23 @@ export default function Header() {
                           </li>
                           <li className="nav-item mm-link"><Link className="nav-link" href="/bchain-security"> Blockchain Security Services </Link></li>
                           <li className="nav-item">
-                            <Accordion flush className="nav-link">
-                              <Accordion.Item eventKey="1">
-                              <Link className='mm-link' href="/penetration">Penetration Testing</Link>
-                                <Accordion.Header><div className='acc-icn'><FaMinus className='faq-mns'/><FaMinus /></div></Accordion.Header>
-                                <Accordion.Body>
-                                <div className="mob-hv-tab-cont">
-                                      <ul>
-                                        <li><Link className="mm-link nav-link" href="/app-pene  "> Mobile App </Link></li>
-                                        <li><Link className="mm-link nav-link" href="/web-pene"> Web App </Link></li>
-                                      </ul>
-                                   </div>
-                                </Accordion.Body>
-                              </Accordion.Item>
-                            </Accordion>
+                           <Accordion flush className="nav-link" activeKey={activeKeythree} onSelect={(key) => setActiveKeythree(key)}>
+                                <Accordion.Item eventKey="3">
+                                <Link className='mm-link' href="/penetration" >Penetration Testing</Link>
+                                  <Accordion.Header><div className='acc-icn' ><FaMinus className='faq-mns'/><FaMinus /></div></Accordion.Header>
+                                
+                                  <Accordion.Body>
+                                  <div className="mob-hv-tab-cont">
+                                        <ul>
+                                          <li><Link className="mm-link nav-link" href="/app-pene" > Mobile App </Link></li>
+                                          <li><Link className="mm-link nav-link" href="/web-pene"> Web App </Link></li>
+                                        </ul>
+                                    </div>
+                                  </Accordion.Body>
+                              
+                                </Accordion.Item>
+                              </Accordion>
+                            
                           </li>
                           <li className="nav-item mm-link"><Link className="nav-link" href="/web3-security"> Web 3 Security Consulting </Link></li>
                           <li className="nav-item mm-link"><Link className="nav-link" href="/digital-security"> Digital Assets Security </Link></li>

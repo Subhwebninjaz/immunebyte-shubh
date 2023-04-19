@@ -1192,7 +1192,9 @@ h1,h2,h3,h4{
 
 /* gql-test */
 .port-table {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  border-top-left-radius: unset;
+  position: relative;
 }
 .line-graph {
   mix-blend-mode: multiply;
@@ -1247,6 +1249,119 @@ h1,h2,h3,h4{
 .table-striped > tbody > tr:nth-of-type(odd){
   background-color: #fff;
 }
+
+/* pagination */
+.pagination-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.pagination{
+  border: 1px solid #0b8080;
+  border-radius: 5px;
+}
+.pagination button{
+  padding: 10px 20px;
+  background-color: transparent;
+}
+.pagination button.active{
+  background-color: var(--dark-cyan);
+  color: var(--white);
+}
+.Api-Tabs .nav-tabs .nav-link{
+  font-size: 19px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--dark-cyan);
+  background-color: var(--white-smoke);
+  box-shadow: 0px 2px 6px 0px #73737380 inset;
+}
+.Api-Tabs .nav-tabs .nav-item button.active{
+  background-color:transparent;
+  font-weight: bold;
+}
+.Api-Tabs .nav-tabs{
+  margin-left: 12px;
+  border: none;
+  --bs-nav-tabs-border-width: 0px;
+}
+
+/* portfolio */
+.audit-div{
+  gap: 0;
+}
+ .audit-div .exp-p{
+  margin-bottom: 0;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+.audit-div h1{
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight:900
+}
+.chain-div{
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+}
+.prof-subs .ib-proof {
+  margin: 0px;
+  transition: .5s;
+}
+.prof-subs .ib-proof:hover{
+  background-color: var(--dark-cyan);
+}
+.prof-subs .ib-proof h5{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.prof-subs .ib-proof p{
+  margin-bottom:unset;
+}
+
+.prof-subs .ib-proof .lm-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: var(--white);
+  font-weight: 700;
+}
+.prof-subs .ib-proof .btn-div{
+  margin-top: 25px;
+}
+.prof-subs .ib-proof .btn-div .btn-outline {
+  border-color: transparent;
+}
+.prof-subs{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+section.issue {
+  margin-top: 120px;
+}
+.sev-issue{
+  display: flex;
+  gap: 30px;
+  margin: 40px 0;
+}
+.il-div{
+  color: black;
+}
+
+.il-div label{
+  margin-left: 5px;
+  font-size: 14px;
+}
+.mod-os-simple{
+  padding: 50px 35px;
+  height: 100%;
+}
+
+
 
 /* ================== Media Query ================== */  
 @media (min-width:1200px){
@@ -1359,6 +1474,23 @@ h1,h2,h3,h4{
   margin-bottom: 40px;
   gap: 20px;
 }
+/* portfolio */
+.chain-div{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Api-Tabs .nav-tabs {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 0 12px ;
+}
+.Api-Tabs .nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+.Api-Tabs .nav-tabs .nav-item {
+  white-space: nowrap;
+}
 }
 
 @media (max-width:767px){
@@ -1399,6 +1531,9 @@ div[class^='col-'] > .col-sub {
   border-radius: unset;
   padding: unset;
   background-color: unset;
+}
+.mobile-menu .navbar-nav .nav-link::after {
+  width: 90%;
 }
 
 /* our services sm */
@@ -1441,6 +1576,8 @@ div[class^='col-'] > .col-sub {
 .wn-body .faq .accordion-button .acc-icn {
   right: 20px;
   font-size: unset;
+  width: 16px;
+  height: 16px;
 }
 
 /* footer */
@@ -1540,4 +1677,28 @@ div[class^='col-'] > .col-sub {
 .client-say .btn-center {
   margin-top: unset;
 }
+
+/* portfolio */
+.main-portfolio .main-title,.main-portfolio .sec-p{
+  text-align: center;
+}
+.port-table{
+  overflow: scroll;
+  border-radius: unset;
+}
+.port-table::-webkit-scrollbar {
+  display: none;
+}
+.chain-div{
+  flex-direction: column;
+}
+.mod-os-simple{
+  padding: 20px;
+}
+.sev-issue{
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+
 }
