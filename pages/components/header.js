@@ -102,7 +102,7 @@ export default function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
-              <li className="nav-item"> <Link className="nav-link active" aria-current="page" href="/"> Home </Link> </li>
+              <li className="nav-item"> <Link className="nav-link" aria-current="page" href="/"> Home </Link> </li>
               <BsNavDropdown />
               <li className="nav-item"> <Link className="nav-link" href="/tools"> Tools </Link> </li>
               <li className="nav-item"> <Link className="nav-link" href="/portfolio"> Portfolio </Link> </li>
