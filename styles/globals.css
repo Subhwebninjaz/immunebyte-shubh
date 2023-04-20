@@ -197,10 +197,6 @@ h1,h2,h3,h4{
 }
 
 /* home/index page css */
-.main-title {
-  /* margin-bottom: 0; */
-  font-weight: 900;
-}
 .main-title span {
   display: block;
 }
@@ -267,8 +263,8 @@ h1,h2,h3,h4{
 }
 .banner-logos .img-div {
   border: 1px solid var(--dark-cyan);
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 10px;
   padding: 10px;
   transition: .3s;
@@ -500,8 +496,9 @@ h1,h2,h3,h4{
 }
 .rb-hcol .rb-link {
   color: var(--dark-cyan);
-  font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 900;
+  text-decoration: underline;
 }
 .rb-vcol .img-div {
   border-radius: 20px;
@@ -1192,7 +1189,7 @@ h1,h2,h3,h4{
 
 /* gql-test */
 .Api-Tabs .port-table {
-  border-top-left-radius: unset;
+  border-top-left-radius:  unset;
   position: relative;
 }
 .line-graph {
@@ -1242,11 +1239,14 @@ h1,h2,h3,h4{
 .port-table .table > :not(caption) > * > *{
   border-bottom: none;
 }
-.table-striped > tbody > tr:nth-of-type(odd) > * {
+.wn-body .table-striped > tbody > tr:nth-of-type(odd) > * {
   --bs-table-accent-bg: var(--white);
 }
-.table-striped > tbody > tr:nth-of-type(odd){
+.wn-body .table-striped > tbody > tr:nth-of-type(odd){
   background-color: #fff;
+}
+.api-data-table {
+  min-height: 300px;
 }
 
 /* pagination */
@@ -1374,9 +1374,19 @@ section.issue {
   .comp-div{
     margin-left: 30px;
   }
-  .sec-title{
-    font-size: 40px;
+  .sec-title.main-title {
+    font-size: 58px;
+    font-weight: 900;
+    letter-spacing: 2px;
   }
+  .sec-title {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  .sec-p {
+    letter-spacing: 2px;
+    }
   .testi-title2 h3 {
     font-size: 32px;
   }

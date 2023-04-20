@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeBanner from './components/home/home-banner'
-import HomeServices from './components/home/home-services'
+// import HomeServices from './components/home/home-services'
+import HomeServices2 from './components/home/home-services2'
 import IndustryPartner from './components/industry-partner'
 import HomeLeagueProjects from './components/home/home-league-projects'
 import HomeFeaturedAudits from './components/home/home-featured-audits'
@@ -13,7 +14,8 @@ export default function Home() {
     <>
     <main className="main-services">
     <HomeBanner bannerheading="Smart Contract Audits"  />
-    <HomeServices />
+    {/* <HomeServices /> */}
+    <HomeServices2 />
     <IndustryPartner />
     <HomeLeagueProjects />
     <HomeFeaturedAudits />
