@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 
-const portfoliosPerPage = 3;
+const portfoliosPerPage = 5;
 
 const all_portfolio = gql`
   query ($first: Int!, $after: Int!) {
@@ -65,7 +65,7 @@ export default function Gql() {
     },
   });
 
-  console.log(currentAfter)
+  // console.log(currentAfter)
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
